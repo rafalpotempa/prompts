@@ -6,5 +6,7 @@ Custom VS Code Copilot plugin instructions
 ### Windows
 
 ```pwsh
-New-Item -ItemType Junction -Path "$env:APPDATA\Code\User\prompts\prompts" -Target "D:\git\rafalpotempa\prompts"
+New-Item -ItemType Junction `
+    -Path "$env:USERPROFILE\.copilot\instructions" `
+    -Target "D:\git\rafalpotempa\prompts\instructions"
 ```

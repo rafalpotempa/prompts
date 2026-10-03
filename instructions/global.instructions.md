@@ -15,8 +15,13 @@ applyTo: "**"
 
 
 # Coding
-- Python: follow PEP 8, use type hints on new public functions, prefer `pathlib` over `os.path`.
+- Python: 
+  - follow PEP 8, 
+  - use type hints on new functions, prefer `pathlib` over `os.path`,
+  - prefer using f-strings for string formatting,
+  - prefer plotly express, than plotly, than seaborn for plots, over matplotlib
 - Notebooks: keep configuration constants in a single cell near the top.
+- Don’t hard-wrap paragraphs in comments or ordinary writing, including documentation: keep each paragraph on one line.
 
 
 # Tools
