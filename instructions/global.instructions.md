@@ -32,4 +32,4 @@ applyTo: "**"
 
 
 # Tools
-- Don't run unnecessary checks.
+- Don't run long checks/tests/tools/scripts on your own, ask first.
