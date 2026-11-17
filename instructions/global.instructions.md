@@ -32,4 +32,4 @@ applyTo: "**"
 
 
 # Tools
-- Don't run long checks/tests/tools/scripts on your own, ask first.
+- Don't run long checks/tests/tools/scripts like end-to-end tests, search, compilation, linting, on your own. Ask first.
